@@ -14,8 +14,11 @@ export default class Login extends Component {
         this.setState({[e.target.name]:e.target.value});
     }
     submitLogin=()=>{
+        let sha1 = require("sha1");
+        let hash = sha1(this.state.password);
         console.log("this is the user name :",this.state.userName)
-        console.log("this is the password :",this.state.password)
+        console.log("this is the password :",hash)
+        this.setState({password:"",userName:""})
     }
 	render() {
 		return (
