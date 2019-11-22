@@ -1,0 +1,21 @@
+.register-user-main-container{
+    margin-left: initial !important;
+    width: 100%;
+}
+.first-row-new-user-label{
+    width: 100%;
+}
+.second-row-container{
+    input{
+        border: none;
+        border-bottom: solid 1px rgba(0,0,0,.2);
+    }
+   
+}
+.second-row-container select:focus{
+    border: 1px solid #aaa;
+}
+.gender-dropdown{
+    border: none;
+    border-bottom: solid 1px rgba(0,0,0,.2);
+}

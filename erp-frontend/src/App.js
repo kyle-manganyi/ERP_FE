@@ -3,6 +3,7 @@ import './App.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from './component/Login';
+import RegisterUser from './component/registerUser';
 import store from './store';
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </Switch>
         
       </Router> */}
-      <Login />
+      <RegisterUser />
     </div>
     </Provider>
   );
