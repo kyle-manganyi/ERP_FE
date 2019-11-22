@@ -1,4 +1,4 @@
-.Login-main-container, .login-content-container, .login-submit-btn-container {
+.Login-main-container, .login-content-container, .login-submit-btn-container, .password-usename-error-msg-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,5 +99,32 @@
 .forgot-password-link:hover {
   color: black;
   cursor: pointer;
+}
+
+.login-error-msg {
+  color: #550000 !important;
+  font-weight: bold;
+  border-left: solid 5px #f28787;
+  padding: 10px;
+  margin: 0.5em 0em 0.5em 0em;
+  background: #EFCFCF;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.password-usename-error-msg-container {
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.support-contact {
+  width: 35%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=Login_style.css.map */
